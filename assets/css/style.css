@@ -1,0 +1,24 @@
+h1 {
+    margin:30px; 
+    font-size: 30px; 
+    font-weight:bold; 
+    color:purple; 
+    text-align:center; 
+}
+
+div {
+font-size:25px; 
+color:blueviolet; 
+text-align:left;
+margin-left:10%; 
+
+}
+
+ol {
+    font-size: 15px; 
+}
+
+.gemSize {
+    width:90px; 
+    height:90px; 
+}

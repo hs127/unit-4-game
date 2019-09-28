@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit 4 HW</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     
+</head>
+<body>
+    <h1>Crystal Gem Collectors</h1>
+   
+        <div class="instructions">
+            <h2>Here's how you play the game</h2>
+            </br>
+            <ol>
+                <li>You will be given a random number at the start of the game.</li>
+                <li>There are four gemstones below.</li>
+                <ul>
+                    <li id="sapphire">Sapphire</li>
+                    <li id="pearl">Pearl</li>
+                    <li id="ruby">Ruby</li>
+                    <li id="diamond">Diamond</li>
+                </ul>
+                <li>By clicking on a gemstone, you will add a specific amount of points to your total score.</li>
+                <li>You win the game by matching your total score to the random number.</li>
+                <li>You lose the game if your total score goes above the random number.</li>
+                <li>The value of each gemstone is hidden from you until you click on it.</li>
+                <li>Each time when the game starts, the game will change the values of each gemstone.</li>
+            </ol>
+        </div>
+
+        <div>Number to get: <span id="randomNumber"</span> 
+
+            <section>
+                <h3>Wins: <span id="wins"</h3> 
+                <h3>Losses: <span id="losses"</h3> <br> 
+            </section>
+
+            <section> 
+                    <img src="assets/images/sapphire.jpg" class="gemSize" id="one" alt="blue"> 
+                    <img src="assets/images/pearl.jpg" class="gemSize" id="two" alt="white"> 
+                    <img src="assets/images/ruby.jpg" class="gemSize" id="three" alt="red">
+                    <img src="assets/images/emerald.jpg" class="gemSize" id="four" alt="green">  
+
+            </section>
+
+            <section> 
+                <h3>Your Total Score is <span id="totalScore"</span></h3>
+            </section>
+
+        </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
