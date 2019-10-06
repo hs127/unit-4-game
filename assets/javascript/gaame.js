@@ -53,6 +53,14 @@ var userGuessTotal = 0;
 var chosenNum = 0; //sum of the array 
 //FUNCTIONS
 
+$(document).ready(function(){
+$(".beginGame").hide();
+
+$(".startbtn").click(function () {
+ $(".beginGame").show();
+$(".startSection").hide(); 
+}); 
+
 function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -66,7 +74,9 @@ function startGame() {
     console.log(chosenNum);
     userGuessTotal = 0; // move to reset 
     $("#randomNumber").html(chosenNum);
-
+    $("#wins").html(winCount);
+    $("#losses").html(lossCount);
+     $("#totalScore").html(userGuessTotal);
     // userTotal = []; don't need 
     // loop for each stone to assign value a randome number 
     $.each(stoneCollection, function (key, value) {
@@ -108,16 +118,12 @@ function checker() {
     if (userGuessTotal == chosenNum) {
         winCount++;
         console.log("win: " + winCount);
-        $("#wins").html(winCount);
-        $("#losses").html(lossCount);
         startGame();
     }
 
     else if (userGuessTotal > chosenNum) {
         lossCount++;
         console.log("loss: " + lossCount);
-        $("#wins").html(winCount);
-        $("#losses").html(lossCount);
         startGame();
     }
 
@@ -126,8 +132,10 @@ function checker() {
     }
         
     $("#totalScore").html(userGuessTotal);
+    $("#wins").html(winCount);
+    $("#losses").html(lossCount);
 }
 
 
-
+});
 

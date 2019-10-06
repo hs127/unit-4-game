@@ -1,21 +1,89 @@
-h1 {
-    margin:30px; 
-    font-size: 30px; 
+.heading {
+    margin: 80px 0px 0px 590px; 
+    width:25%; 
+    font-size: 40px; 
     font-weight:bold; 
-    color:purple; 
-    text-align:center; 
+    background-color:grey; 
+    color:white; 
+    text-align:center;
 }
 
-div {
+#textFont {
 font-size:25px; 
-color:blueviolet; 
-text-align:left;
-margin-left:10%; 
+font-weight:normal; 
+width:15%;
+margin-left:44%; 
+margin-top:10px; 
 
 }
 
-ol {
-    font-size: 15px; 
+#randomNumber {
+    font-weight:bold; 
+    font-size: 30px; 
+    border:2px; 
+    border-color:purple;
+}
+
+p {
+    background-color:grey; 
+    color:white; 
+    text-align:center;
+    font-size: 20px; 
+    line-height:30px; 
+    margin: 0% 10%; 
+
+}
+.ol {
+    background-color:grey; 
+    color:white; 
+    text-align:center;
+    font-size: 20px; 
+    line-height:30px; 
+    display:flex; 
+flex-direction: row;
+position: relative; 
+margin: 2% 30%; 
+width: 50%;
+margin-left:27%; 
+}
+
+.cont {
+    background-color:grey; 
+    color:white; 
+    text-align:center;
+    font-size:20px;
+    
+
+}
+#sapphire {
+    padding:15px; 
+}
+
+#pearl {
+    padding:15px; 
+}
+
+#ruby {
+    padding:15px; 
+}
+
+#emerald {
+    padding: 15px 0px 15px 15px; 
+}
+
+#blue {
+    background-color:grey; 
+}
+
+#white {
+    background-color:grey; 
+}
+#red {
+    background-color:grey; 
+}
+
+#green {
+    background-color:grey; 
 }
 
 .gemSize {
@@ -23,3 +91,44 @@ ol {
     height:90px; 
 }
 
+.image {
+    /* margin-bottom:30px; */
+    width:auto; 
+
+}
+
+.startSection {
+    width:auto; 
+}
+
+.back {
+    background-image:url("https://i2.wp.com/www.123freevectors.com/wp-content/original/125829-dark-grey-abstract-crystal-background.jpg?zoom=1.25&w=800&q=95");
+}
+.container1 {
+    position: relative; 
+    width: auto;
+     max-width: 400px;
+    height: auto;
+  }
+.startbtn {
+     /* position: absolute;
+    top: 45%;
+    left: 105%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    background-color: #555;
+    color: white;
+    font-size: 25px;
+    padding: 30px 40px;
+    border: solid;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+  }
+
+  .col-lg-12 {
+      margin-top:10%; 
+      margin-left:42%;
+  }
+  
