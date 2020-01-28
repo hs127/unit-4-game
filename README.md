@@ -1,1 +1,1 @@
-# unit-4-game
+# Stone Collection Game
